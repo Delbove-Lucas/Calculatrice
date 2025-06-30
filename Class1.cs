@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Calculatrice
+/*namespace Calculatrice
 {
     public class Class1
     {
@@ -33,4 +33,4 @@ namespace Calculatrice
         }
 
     }
-}
+}*/
