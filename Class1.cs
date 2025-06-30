@@ -10,23 +10,23 @@ namespace Calculatrice
     {
         public static double DoOperation(double num1, double num2, string op){
             double resultat = double.NaN;
+            
             switch (op)
             {
                 case "a":
                     resultat = num1 + num2;
                     break;
-                case "b":
+                case "s":
                     resultat = num1 - num2;
                     break;
-                case "c":
+                case "m":
                     resultat = num1 * num2;
                     break ;
                 case "d": 
                     if(num2 != 0)
                             {
-                        resultat = num1 = num2;
+                        resultat = num1 / num2;
                     }
-                    break ;
                     break ;
             }
             return resultat;
